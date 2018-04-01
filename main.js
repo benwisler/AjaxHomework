@@ -39,9 +39,9 @@ function displayGif() {
             var rating = $("<p>");
             $(rating).text("Rating: " + response.data[i].rating)
             var gifDiv = "#gifDiv" + i;
-            $(gifDiv).append(rating);
-            $(gifDiv).append(foodImage);
 
+            $(gifDiv).append(foodImage);
+            $(gifDiv).append(rating);
         }
 
     });
